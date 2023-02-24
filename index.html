@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="dist/output.css">
+    <title>Countdown</title>
+</head>
+
+<body class="bg-projectPurple tablet:bg-white">
+    <main class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-11/12 tablet:h-full">
+        <h1 class="text-white text-2xl text-center laptop:hidden">Countdown</h1>
+
+        <div id="countdown__container" class="bg-white h-fit m-4 p-4 rounded-lg flex flex-col items-center gap-6 tablet:flex-row-reverse tablet:gap-10 tablet:h-5/6 tablet:w-full">
+            <figure>
+                <img src="src/images/rocket.svg" class="mt-4 tablet:w-1/2" alt="Rocket">
+            </figure>
+
+            <div id="countdown__container--text" class="flex flex-col gap-6 items-center tablet:w-5/6">
+                <h2 class="text-projectPurple font-bold uppercase tablet:text-3xl">Ready to launch in...</h2>
+                
+                <div class="timer__description">
+                    <ul class="flex gap-4 text-sm text-textColor">
+                        <li>Days</li>
+                        <li>Hours</li>
+                        <li>Min</li>
+                        <li>Sec</li>
+                    </ul>
+                </div>
+                
+                <p id="timer" class="text-2xl tablet:text-3xl"></p>
+                <p class="text-xs text-textColor text-center">Inscreva-se para saber mais sobre o lançamento</p>
+                <button class="text-sm text-white font-bold bg-projectPurple py-2 px-6 mb-4 w-40 rounded-lg">Inscreva-se</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="absolute bottom-1 left-2/4 -translate-x-2/4">
+        <span class="text-sm text-white tablet:text-black">Coded by: <a href="https://github.com/Marcoswodbarros" target="_blank">Marcos Barros</a></span>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>
