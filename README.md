@@ -1,4 +1,4 @@
-# Landing Pages - Spark Project
+# Landing Pages - Countdown
 
 This is my fourth challenge from the Rocketseat.
 
@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Marcoswodbarros/DesafiosRocketseat.git]
+- Solution URL: [https://github.com/Marcoswodbarros/Countdown.git]
 
 
 ## My process
