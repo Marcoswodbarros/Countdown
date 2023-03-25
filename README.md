@@ -1,4 +1,4 @@
-# Landing Pages - Countdown
+# Rocketseat Challenge - Countdown
 
 This is my fourth challenge from the Rocketseat.
 
@@ -38,6 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Marcoswodbarros/Countdown.git]
+- Deploy: [https://marcoswodbarros.github.io/Countdown/]
 
 
 ## My process
